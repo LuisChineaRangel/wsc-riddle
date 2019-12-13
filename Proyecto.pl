@@ -11,36 +11,45 @@
 % ploc(X,L)
 % Unifica si la Lista L es una solución al problema
 % y si la Lista X es una permutación de los integrantes
-% % del problema (pastor, lobo, oveja, col)
+% del problema (pastor, lobo, oveja, col)
 ploc([],Y,R):- append(_,[Y],R1), append(R1,[[]],R).
+% 1ª Fase, mover al pastor y a la oveja: {lobo, col} {pastor, oveja}
 ploc(X,Y,0,R):-
     extraer(pastor,X,A1), append(Y,[pastor],B1),
     extraer(oveja,A1,A), append(B1,[oveja],B),
     ploc(A,B,1,R1),
     append(R1,[Y],R2), append(R2,[X],R).
+% 2ª Fase, el pastor regresa: {pastor, lobo, col} {oveja}
 ploc(X,Y,1,R):-
     extraer(pastor,Y,B), append(X,[pastor],A),
     ploc(A,B,2,R1),
     append(R1,[Y],R2), append(R2,[X],R).
+% 3ª Fase. El pastor se lleva al lobo: {col} {pastor, oveja, lobo}
 ploc(X,Y,2,R):-
     extraer(pastor,X,A1), append(Y,[pastor],B1),
     extraer(lobo,A1,A), append(B1,[lobo],B),
     ploc(A,B,3,R1),
     append(R1,[Y],R2), append(R2,[X],R).
+% 4ª Fase. Ups! El lobo y la oveja no pueden estar juntos. El pastor regresa con la oveja:
+% {pastor, oveja, col} {lobo}
 ploc(X,Y,3,R):-
     extraer(pastor,Y,B1), append(X,[pastor],A1),
     extraer(oveja,B1,B), append(A1,[oveja],A), 
     ploc(A,B,4,R1),
     append(R1,[Y],R2), append(R2,[X],R).
+% 5ª Fase. La col no puede estar con la oveja. El pastor lleva la col:
+% {oveja} {pastor, lobo, col}
 ploc(X,Y,4,R):-
     extraer(pastor,X,A1), append(Y,[pastor],B1),
     extraer(col,A1,A), append(B1,[col],B),
     ploc(A,B,5,R1),
     append(R1,[Y],R2), append(R2,[X],R).
+% 6ª Fase. El pastor regresa: {pastor, oveja} {lobo, col}
 ploc(X,Y,5,R):-
     extraer(pastor,Y,B), append(X,[pastor],A),
     ploc(A,B,6,R1),
     append(R1,[Y],R2), append(R2,[X],R).
+% 7ª Fase. El pastor lleva a la oveja. Fin del problema: {} {pastor, lobo, oveja, col}
 ploc(X,Y,6,R):-
     extraer(pastor,X,A1), append(Y,[pastor],B1),
     extraer(oveja,A1,A), append(B1,[oveja],B),
