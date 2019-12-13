@@ -12,7 +12,6 @@
 % Unifica si la Lista L es una solución al problema
 % y si la Lista X es una permutación de los integrantes
 % del problema (pastor, lobo, oveja, col)
-ploc([],Y,R):- append(_,[Y],R1), append(R1,[[]],R).
 % 1ª Fase, mover al pastor y a la oveja: {lobo, col} {pastor, oveja}
 ploc(X,Y,0,R):-
     extraer(pastor,X,A1), append(Y,[pastor],B1),
