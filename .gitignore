@@ -32,6 +32,7 @@
 *.app
 
 # Folders and Stuff
+.gitignore
 .vs
 .vs/*
 .vscode
