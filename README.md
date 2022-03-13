@@ -4,14 +4,14 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/LuismGH/WSC"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/iluzioDev/wsc-riddle"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LuismGH/WSC">View Demo</a>
+    <a href="https://github.com/iluzioDev/wsc-riddle">View Demo</a>
     ·
-    <a href="https://github.com/LuismGH/WSC">Report Bug</a>
+    <a href="https://github.com/iluzioDev/wsc-riddle">Report Bug</a>
     ·
-    <a href="https://github.com/LuismGH/WSC">Request Feature</a>
+    <a href="https://github.com/iluzioDev/wsc-riddle">Request Feature</a>
   </p>
 </p>
 
@@ -49,6 +49,6 @@ This project was created with the objective of develop of a system based on know
 
 ## Contact
 
-Luis Marcelo Chinea Rangel - [@luismchr_](https://twitter.com/luismchr_) - alu0101118116@ull.edu.es
+Luis Marcelo Chinea Rangel - [@luismchr_](https://twitter.com/luismchr_) - luischinearangel@gmail.com
 
-Project Link: [https://github.com/LuismGH/WSL](https://github.com/LuismGH/WSL)
+Project Link: [https://github.com/iluzioDev/wsc-riddle](https://github.com/iluzioDev/wsc-riddle)
