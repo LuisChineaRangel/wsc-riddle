@@ -31,7 +31,7 @@
 
 ## About the Project
 
-This project was created with the objective of develop of a system based on knowledge in Prolog to provide a solution to the problem of the wolf, the sheep and the cabbage (WSL):
+This project was created with the objective of develop of a system based on knowledge in Prolog to provide a solution to the problem of the wolf, the sheep and the cabbage (WSC):
 
 *Once upon a time a farmer went to a market and purchased a wolf, a goat, and a cabbage. On his way home, the farmer came to the bank of a river and rented a boat. But crossing the river by boat, the farmer could carry only himself and a single one of his purchases: the wolf, the goat, or the cabbage.*
 
