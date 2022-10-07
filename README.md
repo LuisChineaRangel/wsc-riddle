@@ -4,14 +4,9 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/iluzioDev/wsc-riddle"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/iluzioDev/wsc-riddle">View Demo</a>
+    <a href="https://github.com/iluzioDev/wsc-riddle/issues">Report Bug</a>
     ·
-    <a href="https://github.com/iluzioDev/wsc-riddle">Report Bug</a>
-    ·
-    <a href="https://github.com/iluzioDev/wsc-riddle">Request Feature</a>
+    <a href="https://github.com/iluzioDev/wsc-riddle/pulls">Request Feature</a>
   </p>
 </p>
 
