@@ -25,6 +25,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -46,6 +47,10 @@ This project was created with the objective of develop of a system based on know
 ### Built With
 
 * [VSCode](https://code.visualstudio.com/)
+
+## License
+
+This program is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contact
 
