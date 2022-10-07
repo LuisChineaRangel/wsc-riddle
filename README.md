@@ -21,7 +21,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#written-in">Built With</a></li>
+        <li><a href="#written-in">Written In</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -49,6 +49,6 @@ This project was created with the objective of develop of a system based on know
 
 ## Contact
 
-Luis Marcelo Chinea Rangel - [@luismchr_](https://twitter.com/luismchr_) - luischinearangel@gmail.com
+Luis Marcelo Chinea Rangel - luischinearangel@gmail.com
 
 Project Link: [https://github.com/iluzioDev/wsc-riddle](https://github.com/iluzioDev/wsc-riddle)
