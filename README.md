@@ -3,7 +3,6 @@
   <h3 align="center">Wolf, Sheep and Cabbage Riddle</h3>
 
   <p align="center">
-    <br />
     <a href="https://github.com/iluzioDev/wsc-riddle/issues">Report Bug</a>
     ·
     <a href="https://github.com/iluzioDev/wsc-riddle/pulls">Request Feature</a>
